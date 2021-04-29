@@ -1,0 +1,2293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 42.666668
+    width: 1280
+    height: 637.3334
+  m_ShowMode: 4
+  m_Title: Hierarchy
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 875, y: 542}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TestRunnerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 448
+    width: 372
+    height: 139
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 24}
+  m_Panes:
+  - {fileID: 24}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 14}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 908
+    y: 0
+    width: 372
+    height: 587
+  m_MinSize: {x: 276, y: 242}
+  m_MaxSize: {x: 4001, y: 8042}
+  vertical: 1
+  controlID: 18
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 7}
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1280
+    height: 637
+  m_MinSize: {x: 875, y: 542}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1280
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LoadedToolbars:
+  - {fileID: 25}
+  m_MainToolbar: {fileID: 25}
+  m_LastLoadedLayoutName: 
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 617
+    width: 1280
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 11}
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1280
+    height: 587
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
+  vertical: 0
+  controlID: 17
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 275
+    height: 587
+  m_MinSize: {x: 231, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 56
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 275
+    height: 309
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 309
+    width: 275
+    height: 278
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 12}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 275
+    y: 0
+    width: 633
+    height: 587
+  m_MinSize: {x: 202, y: 342}
+  m_MaxSize: {x: 4002, y: 8042}
+  vertical: 1
+  controlID: 76
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 633
+    height: 435
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  - {fileID: 16}
+  - {fileID: 20}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 435
+    width: 633
+    height: 152
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 21}
+  m_Panes:
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 372
+    height: 448
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 23}
+  - {fileID: 22}
+  m_Selected: 0
+  m_LastSelected: 2
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 908
+    y: 72.66667
+    width: 371
+    height: 427
+  m_ViewDataDictionary: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -151
+    m_ControlHash: 1412526313
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 275.33334
+    y: 72.66667
+    width: 631
+    height: 414
+  m_ViewDataDictionary: {fileID: 0}
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 946.5, y: 589.5}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_MaximizeOnPlay: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -315.5
+    m_HBaseRangeMax: 315.5
+    m_VBaseRangeMin: -196.5
+    m_VBaseRangeMax: 196.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 631
+      height: 393
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 315.5, y: 196.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -315.5
+      y: -196.5
+      width: 631
+      height: 393
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 946.5, y: 621}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 72.66667
+    width: 274
+    height: 288
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 82e2ffffa2e2ffffb8e2ffff24e3ffff46e3ffff5ce3ffff18e5ffff3ae5ffffeee5ffff8ae9fffface9ffff60eaffffbcf8ffffd43c00005a3d0000104c00009e4c0000a454000032550000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 9}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 46b7a0fefa812c44ca6fda42b4d7b176
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 382
+    width: 274
+    height: 257
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders: []
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 0
+  m_StartGridSize: 55
+  m_LastFolders: []
+  m_LastFoldersGridSize: 55
+  m_LastProjectPath: C:\Users\Kat\OneDrive\Desktop\COP4331\ProjCOP\Power Chess
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: c2340000
+    m_LastClickedID: 13506
+    m_ExpandedIDs: 00000000ea100000ec100000963e0000623f0000643f0000663f0000683f00006a3f00006c3f00006e3f0000703f0000723f0000743f0000763f0000783f00007a3f00007c3f00007e3f0000803f0000823f0000843f0000863f0000883f0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 496}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff00000000ea100000ec100000963e0000623f0000643f0000663f0000683f00006a3f00006c3f00006e3f0000703f0000723f0000743f0000763f0000783f00007a3f00007c3f00007e3f0000803f0000823f0000843f0000863f0000883f0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 10}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000f6340000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 10}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 55
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 110
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 275.33334
+    y: 72.66667
+    width: 631
+    height: 414
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: d69a67902db7f994ca099bec79d22ce1
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 506.4733, y: 380.60593, z: 0.0039367676}
+    speed: 2
+    m_Value: {x: 506.4733, y: 380.60593, z: 0.0039367676}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    yGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 348.8813
+    speed: 2
+    m_Value: 348.8813
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.49748743
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 0
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 230.66667
+    y: 72.66667
+    width: 676
+    height: 413.66666
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 275.33334
+    y: 508
+    width: 631
+    height: 131
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1445
+    y: 73
+    width: 474
+    height: 731
+  m_ViewDataDictionary: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -239
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 360}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Navigation
+    m_Image: {fileID: 1087843850482249999, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1729
+    y: 73
+    width: 830
+    height: 842
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &24
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 908
+    y: 520.6667
+    width: 371
+    height: 118
+  m_ViewDataDictionary: {fileID: 0}
+  m_Spl:
+    ID: 201
+    splitterInitialOffset: 342
+    currentActiveSplitter: -1
+    realSizes:
+    - 32
+    - 32
+    relativeSizes:
+    - 0.7241993
+    - 0.2758007
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 54
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 2000000020000000
+    oldMinSizes: 2000000020000000
+    oldMaxSizes: 0000000000000000
+    oldSplitSize: 6
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 24}
+    newResultList:
+    - id: 1026
+      uniqueId: '[Power Chess][suite]'
+      name: Power Chess
+      fullName: Power Chess
+      resultStatus: 1
+      duration: 4.6323285
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1004
+      uniqueId: '[PlayMode.dll][suite]'
+      name: PlayMode.dll
+      fullName: C:/Users/Kathleen/OneDrive/Desktop/COP4331/ProjCOP/Power Chess/Library/ScriptAssemblies/PlayMode.dll
+      resultStatus: 1
+      duration: 4.579117
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Power Chess][suite]'
+    - id: 1005
+      uniqueId: PlayMode.dll/[PlayMode][Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 4.564888
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: '[PlayMode.dll][suite]'
+    - id: 1001
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+      name: ButtonTests
+      fullName: Tests.ButtonTests
+      resultStatus: 1
+      duration: 3.1433046
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1024
+      parentUniqueId: PlayMode.dll/[PlayMode][Tests][suite]
+    - id: 1020
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestBishopButtonRemoves4CoinsFromPlayer]
+      name: TestBishopButtonRemoves4CoinsFromPlayer
+      fullName: Tests.ButtonTests.TestBishopButtonRemoves4CoinsFromPlayer
+      resultStatus: 1
+      duration: 0.6930059
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1008
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestBishopButtonSpawnsBishop]
+      name: TestBishopButtonSpawnsBishop
+      fullName: Tests.ButtonTests.TestBishopButtonSpawnsBishop
+      resultStatus: 1
+      duration: 0.1374842
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1008
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestBlackPlayerCannotPlacePowerupPieceBelowLastTwoRows]
+      name: TestBlackPlayerCannotPlacePowerupPieceBelowLastTwoRows
+      fullName: Tests.ButtonTests.TestBlackPlayerCannotPlacePowerupPieceBelowLastTwoRows
+      resultStatus: 1
+      duration: 0.1285664
+      messages: 
+      output: 'Button clicked 1 times.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1009
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestBlackPlayerCanPlacePowerupPieceInLastTwoRows]
+      name: TestBlackPlayerCanPlacePowerupPieceInLastTwoRows
+      fullName: Tests.ButtonTests.TestBlackPlayerCanPlacePowerupPieceInLastTwoRows
+      resultStatus: 1
+      duration: 0.1821105
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1002
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestButtonCanSpawnPieceInEmptySpot]
+      name: TestButtonCanSpawnPieceInEmptySpot
+      fullName: Tests.ButtonTests.TestButtonCanSpawnPieceInEmptySpot
+      resultStatus: 1
+      duration: 0.1492282
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1003
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestButtonWillNotSpawnPieceInOccupiedSpot]
+      name: TestButtonWillNotSpawnPieceInOccupiedSpot
+      fullName: Tests.ButtonTests.TestButtonWillNotSpawnPieceInOccupiedSpot
+      resultStatus: 1
+      duration: 0.1612106
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1004
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestButtonWillNotSpawnWithoutEnoughCoins]
+      name: TestButtonWillNotSpawnWithoutEnoughCoins
+      fullName: Tests.ButtonTests.TestButtonWillNotSpawnWithoutEnoughCoins
+      resultStatus: 1
+      duration: 0.134243
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1005
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestCoinDeductionWithPurchase]
+      name: TestCoinDeductionWithPurchase
+      fullName: Tests.ButtonTests.TestCoinDeductionWithPurchase
+      resultStatus: 1
+      duration: 0.1199058
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1044
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestEconomyWinButton]
+      name: TestEconomyWinButton
+      fullName: Tests.ButtonTests.TestEconomyWinButton
+      resultStatus: 1
+      duration: 0.1351344
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1016
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestExtraTurnButton1AddsOneTurnsForHeads]
+      name: TestExtraTurnButton1AddsOneTurnsForHeads
+      fullName: Tests.ButtonTests.TestExtraTurnButton1AddsOneTurnsForHeads
+      resultStatus: 1
+      duration: 0.1597186
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1017
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestExtraTurnButton1AddsZeroTurnsForTails]
+      name: TestExtraTurnButton1AddsZeroTurnsForTails
+      fullName: Tests.ButtonTests.TestExtraTurnButton1AddsZeroTurnsForTails
+      resultStatus: 1
+      duration: 0.1590847
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1019
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestExtraTurnButton2AddsOneTurnForTails]
+      name: TestExtraTurnButton2AddsOneTurnForTails
+      fullName: Tests.ButtonTests.TestExtraTurnButton2AddsOneTurnForTails
+      resultStatus: 1
+      duration: 0.1271855
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1018
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestExtraTurnButton2AddsTwoTurnsForHeads]
+      name: TestExtraTurnButton2AddsTwoTurnsForHeads
+      fullName: Tests.ButtonTests.TestExtraTurnButton2AddsTwoTurnsForHeads
+      resultStatus: 1
+      duration: 0.1124055
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1007
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestKnightButtonSpawnsKnight]
+      name: TestKnightButtonSpawnsKnight
+      fullName: Tests.ButtonTests.TestKnightButtonSpawnsKnight
+      resultStatus: 1
+      duration: 0.1188843
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1009
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestPawnButtonSpawnsPawn]
+      name: TestPawnButtonSpawnsPawn
+      fullName: Tests.ButtonTests.TestPawnButtonSpawnsPawn
+      resultStatus: 1
+      duration: 0.111653
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1005
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestQueenButtonSpawnsQueen]
+      name: TestQueenButtonSpawnsQueen
+      fullName: Tests.ButtonTests.TestQueenButtonSpawnsQueen
+      resultStatus: 1
+      duration: 0.1150384
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1006
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestRookButtonSpawnsRook]
+      name: TestRookButtonSpawnsRook
+      fullName: Tests.ButtonTests.TestRookButtonSpawnsRook
+      resultStatus: 1
+      duration: 0.1201153
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1006
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestWhitePlayerCannotPlacePowerupPiecePastSecondRow]
+      name: TestWhitePlayerCannotPlacePowerupPiecePastSecondRow
+      fullName: Tests.ButtonTests.TestWhitePlayerCannotPlacePowerupPiecePastSecondRow
+      resultStatus: 1
+      duration: 0.116151
+      messages: 
+      output: 'Button clicked 1 times.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1007
+      uniqueId: PlayMode.dll/Tests/ButtonTests/[PlayMode][Tests.ButtonTests.TestWhitePlayerCanPlacePowerupPieceInFirstTwoRows]
+      name: TestWhitePlayerCanPlacePowerupPieceInFirstTwoRows
+      fullName: Tests.ButtonTests.TestWhitePlayerCanPlacePowerupPieceInFirstTwoRows
+      resultStatus: 1
+      duration: 0.1119914
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ButtonTests][suite]
+    - id: 1001
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+      name: TestGameFlow
+      fullName: Tests.TestGameFlow
+      resultStatus: 1
+      duration: 0.4076409
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: PlayMode.dll/[PlayMode][Tests][suite]
+    - id: 1033
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestBlackPawnInfiltrationEndsGame]
+      name: TestBlackPawnInfiltrationEndsGame
+      fullName: Tests.TestGameFlow.TestBlackPawnInfiltrationEndsGame
+      resultStatus: 1
+      duration: 0.108036
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1021
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestBlackPlayerCannotPlaceInitialPiecesBelowLastTwoRows]
+      name: TestBlackPlayerCannotPlaceInitialPiecesBelowLastTwoRows
+      fullName: Tests.TestGameFlow.TestBlackPlayerCannotPlaceInitialPiecesBelowLastTwoRows
+      resultStatus: 1
+      duration: 0.0227949
+      messages: 
+      output: 'Button clicked 1 times.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1023
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestBuyMultiplePiecePowerupsInSameTurn]
+      name: TestBuyMultiplePiecePowerupsInSameTurn
+      fullName: Tests.TestGameFlow.TestBuyMultiplePiecePowerupsInSameTurn
+      resultStatus: 1
+      duration: 0.0233397
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1002
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestGetSquareCenter]
+      name: TestGetSquareCenter
+      fullName: Tests.TestGameFlow.TestGetSquareCenter
+      resultStatus: 1
+      duration: 0.0207592
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1032
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestPlayerCannotMovePieceTheyJustPurchased]
+      name: TestPlayerCannotMovePieceTheyJustPurchased
+      fullName: Tests.TestGameFlow.TestPlayerCannotMovePieceTheyJustPurchased
+      resultStatus: 1
+      duration: 0.022383
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1024
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestPlayerCanPurchaseOnlyOneCoinFlipPerTurn]
+      name: TestPlayerCanPurchaseOnlyOneCoinFlipPerTurn
+      fullName: Tests.TestGameFlow.TestPlayerCanPurchaseOnlyOneCoinFlipPerTurn
+      resultStatus: 1
+      duration: 0.0231684
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1018
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestPlayersStartWithThreeCoins]
+      name: TestPlayersStartWithThreeCoins
+      fullName: Tests.TestGameFlow.TestPlayersStartWithThreeCoins
+      resultStatus: 1
+      duration: 0.0301572
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1026
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestStartingBoardSpawns3BlackPawns]
+      name: TestStartingBoardSpawns3BlackPawns
+      fullName: Tests.TestGameFlow.TestStartingBoardSpawns3BlackPawns
+      resultStatus: 1
+      duration: 0.0230659
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1025
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestStartingBoardSpawns3WhitePawns]
+      name: TestStartingBoardSpawns3WhitePawns
+      fullName: Tests.TestGameFlow.TestStartingBoardSpawns3WhitePawns
+      resultStatus: 1
+      duration: 0.0231273
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1017
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestStartingBoardSpawnsKings]
+      name: TestStartingBoardSpawnsKings
+      fullName: Tests.TestGameFlow.TestStartingBoardSpawnsKings
+      resultStatus: 1
+      duration: 0.0218451
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1032
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestStartingSelectionPosition]
+      name: TestStartingSelectionPosition
+      fullName: Tests.TestGameFlow.TestStartingSelectionPosition
+      resultStatus: 1
+      duration: 0.0210227
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1029
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1034
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestWhitePawnInfiltrationEndsGame]
+      name: TestWhitePawnInfiltrationEndsGame
+      fullName: Tests.TestGameFlow.TestWhitePawnInfiltrationEndsGame
+      resultStatus: 1
+      duration: 0.0215224
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1020
+      uniqueId: PlayMode.dll/Tests/TestGameFlow/[PlayMode][Tests.TestGameFlow.TestWhitePlayerCannotPlaceInitialPiecesPastFirstTwoRows]
+      name: TestWhitePlayerCannotPlaceInitialPiecesPastFirstTwoRows
+      fullName: Tests.TestGameFlow.TestWhitePlayerCannotPlaceInitialPiecesPastFirstTwoRows
+      resultStatus: 1
+      duration: 0.0230733
+      messages: 
+      output: 'Button clicked 1 times.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestGameFlow][suite]
+    - id: 1004
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestPieceMoves][suite]
+      name: TestPieceMoves
+      fullName: Tests.TestPieceMoves
+      resultStatus: 1
+      duration: 0.9987772
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: PlayMode.dll/[PlayMode][Tests][suite]
+    - id: 1015
+      uniqueId: PlayMode.dll/Tests/TestPieceMoves/[PlayMode][Tests.TestPieceMoves.TestBishopArrayOfValidMovesCanMove]
+      name: TestBishopArrayOfValidMovesCanMove
+      fullName: Tests.TestPieceMoves.TestBishopArrayOfValidMovesCanMove
+      resultStatus: 1
+      duration: 0.1241864
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestPieceMoves][suite]
+    - id: 1008
+      uniqueId: PlayMode.dll/Tests/TestPieceMoves/[PlayMode][Tests.TestPieceMoves.TestBlackPawnArrayOfValidMovesAtStartingPosition]
+      name: TestBlackPawnArrayOfValidMovesAtStartingPosition
+      fullName: Tests.TestPieceMoves.TestBlackPawnArrayOfValidMovesAtStartingPosition
+      resultStatus: 1
+      duration: 0.1425138
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestPieceMoves][suite]
+    - id: 1006
+      uniqueId: PlayMode.dll/Tests/TestPieceMoves/[PlayMode][Tests.TestPieceMoves.TestKingArrayOfValidMovesCanMove]
+      name: TestKingArrayOfValidMovesCanMove
+      fullName: Tests.TestPieceMoves.TestKingArrayOfValidMovesCanMove
+      resultStatus: 1
+      duration: 0.1284583
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestPieceMoves][suite]
+    - id: 1013
+      uniqueId: PlayMode.dll/Tests/TestPieceMoves/[PlayMode][Tests.TestPieceMoves.TestKnightArrayOfValidMovesCanCapture]
+      name: TestKnightArrayOfValidMovesCanCapture
+      fullName: Tests.TestPieceMoves.TestKnightArrayOfValidMovesCanCapture
+      resultStatus: 1
+      duration: 0.1132577
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestPieceMoves][suite]
+    - id: 1009
+      uniqueId: PlayMode.dll/Tests/TestPieceMoves/[PlayMode][Tests.TestPieceMoves.TestPawnArrayOfValidMovesCapture]
+      name: TestPawnArrayOfValidMovesCapture
+      fullName: Tests.TestPieceMoves.TestPawnArrayOfValidMovesCapture
+      resultStatus: 1
+      duration: 0.1157173
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestPieceMoves][suite]
+    - id: 1017
+      uniqueId: PlayMode.dll/Tests/TestPieceMoves/[PlayMode][Tests.TestPieceMoves.TestQueenArrayOfValidMovesCanCapture]
+      name: TestQueenArrayOfValidMovesCanCapture
+      fullName: Tests.TestPieceMoves.TestQueenArrayOfValidMovesCanCapture
+      resultStatus: 1
+      duration: 0.1291158
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestPieceMoves][suite]
+    - id: 1011
+      uniqueId: PlayMode.dll/Tests/TestPieceMoves/[PlayMode][Tests.TestPieceMoves.TestRookArrayOfValidMovesCanMove]
+      name: TestRookArrayOfValidMovesCanMove
+      fullName: Tests.TestPieceMoves.TestRookArrayOfValidMovesCanMove
+      resultStatus: 1
+      duration: 0.1178305
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestPieceMoves][suite]
+    - id: 1007
+      uniqueId: PlayMode.dll/Tests/TestPieceMoves/[PlayMode][Tests.TestPieceMoves.TestWhitePawnArrayOfValidMovesAtStartingPosition]
+      name: TestWhitePawnArrayOfValidMovesAtStartingPosition
+      fullName: Tests.TestPieceMoves.TestWhitePawnArrayOfValidMovesAtStartingPosition
+      resultStatus: 1
+      duration: 0.11129
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TestPieceMoves][suite]
+    m_ResultText: 'TestBlackPlayerCannotPlacePowerupPieceBelowLastTwoRows (0.129s)
+
+      ---
+
+      Button
+      clicked 1 times.'
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 95d95815
+      m_LastClickedID: 358144405
+      m_ExpandedIDs: 849fc3859f5c62b6175177bfdae6f3cdd7e52e44bc805a6dffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 24}
+    newResultList:
+    - id: 1000
+      uniqueId: '[Power Chess][suite]'
+      name: Power Chess
+      fullName: Power Chess
+      resultStatus: 1
+      duration: 0.1019543
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1005
+      uniqueId: '[Tests.dll][suite]'
+      name: Tests.dll
+      fullName: C:/Users/Dylan/Documents/GitHub/ProjCOP/Power Chess/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 1
+      duration: 0.0563549
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Power Chess][suite]'
+    - id: 1006
+      uniqueId: Tests.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 0.0518272
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: '[Tests.dll][suite]'
+    - id: 1001
+      uniqueId: Tests.dll/Tests/[Tests][Tests.CoinTests][suite]
+      name: CoinTests
+      fullName: Tests.CoinTests
+      resultStatus: 1
+      duration: 0.0107316
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1025
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/CoinTests/[Tests][Tests.CoinTests.TestAddCoinMethod]
+      name: TestAddCoinMethod
+      fullName: Tests.CoinTests.TestAddCoinMethod
+      resultStatus: 1
+      duration: 0.0028288
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CoinTests][suite]
+    - id: 1003
+      uniqueId: Tests.dll/Tests/CoinTests/[Tests][Tests.CoinTests.TestRemoveCoinMethod]
+      name: TestRemoveCoinMethod
+      fullName: Tests.CoinTests.TestRemoveCoinMethod
+      resultStatus: 1
+      duration: 0.0003318
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.CoinTests][suite]
+    - id: 1001
+      uniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+      name: PositionTests
+      fullName: Tests.PositionTests
+      resultStatus: 1
+      duration: 0.0360267
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1013
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestBishopWithInvalidMove]
+      name: TestBishopWithInvalidMove
+      fullName: Tests.PositionTests.TestBishopWithInvalidMove
+      resultStatus: 1
+      duration: 0.0014682
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1014
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestBishopWithMoveOffTheBoard]
+      name: TestBishopWithMoveOffTheBoard
+      fullName: Tests.PositionTests.TestBishopWithMoveOffTheBoard
+      resultStatus: 1
+      duration: 0.0006168
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1012
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestBishopWithValidMove]
+      name: TestBishopWithValidMove
+      fullName: Tests.PositionTests.TestBishopWithValidMove
+      resultStatus: 1
+      duration: 0.0005395
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1009
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestKingWithInvalidMove]
+      name: TestKingWithInvalidMove
+      fullName: Tests.PositionTests.TestKingWithInvalidMove
+      resultStatus: 1
+      duration: 0.0010734
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1010
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestKingWithMoveOffTheBoard]
+      name: TestKingWithMoveOffTheBoard
+      fullName: Tests.PositionTests.TestKingWithMoveOffTheBoard
+      resultStatus: 1
+      duration: 0.0005404
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1008
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestKingWithValidMove]
+      name: TestKingWithValidMove
+      fullName: Tests.PositionTests.TestKingWithValidMove
+      resultStatus: 1
+      duration: 0.0005376
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1003
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestKnightWithInvalidMove]
+      name: TestKnightWithInvalidMove
+      fullName: Tests.PositionTests.TestKnightWithInvalidMove
+      resultStatus: 1
+      duration: 0.0012057
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1004
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestKnightWithMoveOffTheBoard]
+      name: TestKnightWithMoveOffTheBoard
+      fullName: Tests.PositionTests.TestKnightWithMoveOffTheBoard
+      resultStatus: 1
+      duration: 0.0007107
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestKnightWithValidMove]
+      name: TestKnightWithValidMove
+      fullName: Tests.PositionTests.TestKnightWithValidMove
+      resultStatus: 1
+      duration: 0.0005461
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1004
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestPawnWithInvalidMove]
+      name: TestPawnWithInvalidMove
+      fullName: Tests.PositionTests.TestPawnWithInvalidMove
+      resultStatus: 1
+      duration: 0.0011064
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1005
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestPawnWithMoveOffTheBoard]
+      name: TestPawnWithMoveOffTheBoard
+      fullName: Tests.PositionTests.TestPawnWithMoveOffTheBoard
+      resultStatus: 1
+      duration: 0.0005309
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1003
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestPawnWithValidMove]
+      name: TestPawnWithValidMove
+      fullName: Tests.PositionTests.TestPawnWithValidMove
+      resultStatus: 1
+      duration: 0.0005345
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestPawnWithValidOpeningMove]
+      name: TestPawnWithValidOpeningMove
+      fullName: Tests.PositionTests.TestPawnWithValidOpeningMove
+      resultStatus: 1
+      duration: 0.0005881
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1016
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestQueenWithInvalidMove]
+      name: TestQueenWithInvalidMove
+      fullName: Tests.PositionTests.TestQueenWithInvalidMove
+      resultStatus: 1
+      duration: 0.0010216
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1017
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestQueenWithMoveOffTheBoard]
+      name: TestQueenWithMoveOffTheBoard
+      fullName: Tests.PositionTests.TestQueenWithMoveOffTheBoard
+      resultStatus: 1
+      duration: 0.0004676
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1015
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestQueenWithValidStraightMove]
+      name: TestQueenWithValidStraightMove
+      fullName: Tests.PositionTests.TestQueenWithValidStraightMove
+      resultStatus: 1
+      duration: 0.0005414
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1003
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestRookWithInvalidMove]
+      name: TestRookWithInvalidMove
+      fullName: Tests.PositionTests.TestRookWithInvalidMove
+      resultStatus: 1
+      duration: 0.0009544
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1004
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestRookWithMoveOffTheBoard]
+      name: TestRookWithMoveOffTheBoard
+      fullName: Tests.PositionTests.TestRookWithMoveOffTheBoard
+      resultStatus: 1
+      duration: 0.0003984
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/PositionTests/[Tests][Tests.PositionTests.TestRookWithValidMove]
+      name: TestRookWithValidMove
+      fullName: Tests.PositionTests.TestRookWithValidMove
+      resultStatus: 1
+      duration: 0.0004055
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PositionTests][suite]
+    m_ResultText: TestAddCoinMethod (0.003s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: cebad507
+      m_LastClickedID: 131447502
+      m_ExpandedIDs: 30f38d841ef87793e557abf78359db41d7e52e44ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &25
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13963, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DontSaveToLayout: 0
